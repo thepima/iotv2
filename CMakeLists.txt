@@ -3,6 +3,8 @@
     @brief CMake configuration for the cpp-opp-review project
     @author IoT Solution Development Team
     @date 2026-09-01
+    @version 0.1.0
+    @license MIT lICENSE
 ]]
 # Minimum required CMake version for the upgrade baseline
 cmake_minimum_required(VERSION 4.3.1)
