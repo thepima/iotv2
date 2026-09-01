@@ -17,11 +17,13 @@ if (NOT CXX26_SUPPORTED)
 endif ()
 
 # Source files
-set(SOURCE
+set(SOURCES
         main.cpp
+        src/Resource.cpp
 )
 # Define the executable target
-add_executable(cpp-oop-review ${SOURCES})
+add_executable(cpp-oop-review ${SOURCES}
+        src/Resource.cpp)
 
 # Keep language settings and include paths target-scoped
 set_target_properties(cpp-oop-review PROPERTIES
