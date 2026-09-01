@@ -1,3 +1,9 @@
+#[[
+    @file CMakeLists.txt
+    @brief CMake configuration for the cpp-opp-review project
+    @author IoT Solution Development Team
+    @date 2026-09-01
+]]
 # Minimum required CMake version for the upgrade baseline
 cmake_minimum_required(VERSION 4.3.1)
 # Project name and language
